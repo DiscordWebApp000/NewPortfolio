@@ -3,6 +3,7 @@ import styles from "./AboutMe.module.css";
 
 import { motion } from "framer-motion";
 import zigzag from "../../assets/icons/zigzag.svg";
+import Image from "../../assets/icons/Image_1.jpg"
 
 const AboutMe = () => {
   return (
@@ -14,7 +15,7 @@ const AboutMe = () => {
       transition={{ duration: 0.8 }}
     >
       <section className={`aboutme ${styles.aboutme}`}>
-        <img src="https://i.postimg.cc/vHSLwNrH/aboutme.jpg" alt="aboutme" />
+        <img src={Image} alt="aboutme" />
         <p>{t("aboutmeTwo")}</p>
 
         <div className={styles.sl}>
