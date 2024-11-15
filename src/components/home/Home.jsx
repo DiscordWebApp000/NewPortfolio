@@ -22,7 +22,7 @@ const Home = () => {
 
       <ul>
         <li>
-          <span>{t("age")}:</span> 24
+          <span>{t("age")}:</span> 21
         </li>
         <li>
           <span>{t("dob")}:</span> {t("dobA")}
