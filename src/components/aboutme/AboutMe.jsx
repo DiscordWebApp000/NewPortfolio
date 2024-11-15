@@ -62,8 +62,8 @@ const AboutMe = () => {
               <ul>
                 <li></li>
                 <li></li>
-                <li className={styles.false}></li>
-                <li className={styles.false}></li>
+                <li ></li>
+                <li></li>
                 <li className={styles.false}></li>
               </ul>
             </div>
@@ -85,7 +85,7 @@ const AboutMe = () => {
                 <li></li>
                 <li></li>
                 <li></li>
-                <li className={styles.false}></li>
+                <li></li>
                 <li className={styles.false}></li>
               </ul>
             </div>
@@ -95,8 +95,8 @@ const AboutMe = () => {
               <ul>
                 <li></li>
                 <li></li>
-                <li className={styles.false}></li>
-                <li className={styles.false}></li>
+                <li></li>
+                <li></li>
                 <li className={styles.false}></li>
               </ul>
             </div>
@@ -106,7 +106,7 @@ const AboutMe = () => {
               <ul>
                 <li></li>
                 <li></li>
-                <li className={styles.false}></li>
+                <li></li>
                 <li className={styles.false}></li>
                 <li className={styles.false}></li>
               </ul>
@@ -135,11 +135,11 @@ const AboutMe = () => {
             </div>
 
             <div>
-              <span>GraphQL</span>
+              <span>Firebase</span>
               <ul>
                 <li></li>
                 <li></li>
-                <li className={styles.false}></li>
+                <li></li>
                 <li className={styles.false}></li>
                 <li className={styles.false}></li>
               </ul>
@@ -169,7 +169,7 @@ const AboutMe = () => {
                 <li></li>
                 <li></li>
                 <li></li>
-                <li className={styles.false}></li>
+                <li></li>
                 <li className={styles.false}></li>
               </ul>
             </div>
@@ -178,10 +178,11 @@ const AboutMe = () => {
               <span>{t("korean")}</span>
               <ul>
                 <li></li>
-                <li className={styles.false}></li>
-                <li className={styles.false}></li>
-                <li className={styles.false}></li>
-                <li className={styles.false}></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+
               </ul>
             </div>
           </section>

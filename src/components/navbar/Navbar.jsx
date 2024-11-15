@@ -10,7 +10,8 @@ import { BsGithub, BsTelegram, BsInstagram } from "react-icons/bs";
 import { useMediaQuery } from "react-responsive";
 import DarkMood from "../../common/DarkMood";
 
-import favIcon from "../../assets/icons/favicon.ico";
+import favIcon from "../../assets/icons/Logo_U.png";
+import Logo from "../../assets/icons/Logo_U.png"
 
 const Navbar = ({ handleOnclick, location }) => {
   const [open, setOpen] = useState(false);
@@ -33,7 +34,7 @@ const Navbar = ({ handleOnclick, location }) => {
   return (
     <>
       <div className={`menuTM ${styles.menuTM}`}>
-        <img src={favIcon} alt="logo" />
+        <img src={favIcon} alt="logo" style={{ width: "50px" }} />
         <ul onClick={() => setOpen(!open)}>
           <li style={openMenu1}></li>
           <li style={openMenu2}></li>
@@ -56,7 +57,7 @@ const Navbar = ({ handleOnclick, location }) => {
 
             <figure className={styles.profile}>
               <img
-                src="https://i.postimg.cc/dt0mXYTx/avatar.jpg"
+                src={Logo}
                 alt="profile"
               />
             </figure>
@@ -155,9 +156,9 @@ const Navbar = ({ handleOnclick, location }) => {
             </ul>
 
             <div className={styles.btns}>
-              <button value="fa" onClick={handleOnclick} />
+              <button value="tr" onClick={handleOnclick} />
               <button value="en" onClick={handleOnclick} />
-              <button value="ko" onClick={handleOnclick} />
+              <button value="az" onClick={handleOnclick} />
             </div>
           </nav>
         ) : (
@@ -172,7 +173,7 @@ const Navbar = ({ handleOnclick, location }) => {
 
             <figure className={styles.profile}>
               <img
-                src="https://i.postimg.cc/dt0mXYTx/avatar.jpg"
+                src={Logo}
                 alt="profile"
               />
             </figure>
@@ -270,9 +271,9 @@ const Navbar = ({ handleOnclick, location }) => {
             </ul>
 
             <div className={styles.btns}>
-              <button value="fa" onClick={handleOnclick}></button>
+              <button value="tr" onClick={handleOnclick}></button>
               <button value="en" onClick={handleOnclick}></button>
-              <button value="ko" onClick={handleOnclick}></button>
+              <button value="az" onClick={handleOnclick}></button>
             </div>
           </nav>
         )}

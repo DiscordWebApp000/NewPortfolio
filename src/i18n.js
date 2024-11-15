@@ -2,9 +2,9 @@ import i18n from "i18next";
 import { initReactI18next } from "react-i18next";
 import LanguageDetector from "i18next-browser-languagedetector";
 
-import { TRANSLATIONS_FA } from "./locales/fa";
+import { TRANSLATIONS_TR } from "./locales/tr";
 import { TRANSLATIONS_EN } from "./locales/en";
-import { TRANSLATIONS_KO } from "./locales/ko";
+import { TRANSLATIONS_AZ } from "./locales/az";
 
 i18n
   .use(LanguageDetector)
@@ -14,16 +14,16 @@ i18n
       en: {
         translation: TRANSLATIONS_EN,
       },
-      fa: {
-        translation: TRANSLATIONS_FA,
+      tr: {
+        translation: TRANSLATIONS_TR,
       },
-      ko: {
-        translation: TRANSLATIONS_KO,
+      az: {
+        translation: TRANSLATIONS_AZ,
       },
     },
   })
   
 
-i18n.changeLanguage("fa");
+i18n.changeLanguage("tr");
 
 export { i18n };
